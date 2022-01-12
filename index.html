@@ -5,12 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ninja</h1>
-<img src="imagenninja.JPG" alt="fotodeninja">
-<h2>noun</h2>
-<p>1. A practitioner skilled in the Japanese art of ninjutsu</p>
-<p>2. A programmer who breaks down problems with zen-like focus</p>
+<div class="top">
+        <div class="inicio">
+            <h1 class="title">Dojonary</h1>
+            <input type="text" class="busqueda" name="Search">
+            <button class="boton" onclick="login(this)">Login</button>  
+        </div>
+
+    <div class="contenedor">
+        <div class="pantalla">
+            <div class="definicion">
+                <div class="left">
+                    <div class="letras">
+                <h1>ninja</h1>
+                <h2> <em>noun</em></h2>
+                <h3>Plural: <em>ninjas</em></h3>
+                <button class="like1" onclick="message()">13 likes</button>
+                     </div>
+                <p class="definition-text"> A practitioner skilled 
+                    in the <span class="span">Japanese</span> art of <span>ninjutsu</span></p>
+            </div>
+        </div>
+            <div class="definicion1">
+                <div class="letras">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+                <h3>Plural: ninjas</h3>
+                <button class="like1" onclick="message()">37 likes</button>
+            </div>
+                <p class="definition-text">A <span class="span">programmer</span> who breaks 
+                    down problems with <span class="span">zen</span>-like
+                    focus</p>
+            </div>
+    </div>
+        <div class="flex1">
+        <div class="contenedor1">
+            <h2>Dojonary is defined by <span class="span1">YOU.</span></h2>
+            <button class="boton1" onclick="hide(this)">Add Definition</button>
+        </div>
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

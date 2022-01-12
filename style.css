@@ -1,0 +1,155 @@
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.top{
+    
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+
+.inicio{
+    background-color: #ccc;
+    padding: 20px;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title{
+    color: black;
+    font-size: 3rem;
+}
+
+.busqueda{
+
+    border: 2px solid black;
+    flex: 1;
+    font-size: 1.2rem
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.boton{
+
+    font-size: 1rem;
+    background-color:rgba(47, 51, 255, 0.897);
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+
+.contenedor{
+    display: flex;
+     
+}
+
+.pantalla { 
+    flex: 2; 
+}
+
+.flex1 { 
+    flex: 1; 
+    margin-left: 30px;
+}
+
+.contenedor1{
+    flex: 1;
+    margin-top: 30px;
+    padding: 30px;
+  
+}
+
+.definicion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.definition-text {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 22px;
+    text-size-adjust: 20px;
+    justify-content: space-between  
+    
+}
+
+.contenedor1, h2 {
+
+    font-size: 1.7rem;
+}
+
+
+.span{
+    color: rgb(0, 132, 255);
+    text-decoration: underline;
+}
+
+.span1{
+    font-weight: bold;
+}
+
+.like1{
+    color: black;
+    background-color: rgb(248, 224, 114);
+    height: 30px;
+    width: 90px;
+    padding: 0px;
+    border: 2px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+
+}
+
+.boton1{
+    height: 25px;
+    width: 250px;
+    background-color:rgba(0, 146, 24, 0.897);
+    color: black;
+    padding: 0px;
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;    
+}
+
+
+.definicion, .definicion1, .flex1{
+    
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.add {
+    background-color: #93c47d;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.letras{
+    
+    text-align: left;
+    padding-left: 10px;
+}
